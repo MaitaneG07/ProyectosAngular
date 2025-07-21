@@ -1,0 +1,12 @@
+<div
+  id="menu"
+  class="w-[220px] bg-gray-900 min-h-screen z-10 text-slate-300 fixed left-0 h-screen"
+>
+  <!-- gifs-side-menu-header -->
+  <app-side-menu-header />
+
+  <!-- mostramos menuOptions segun el rol -->
+  <app-side-menu-options
+  [menuOptions]="menuOptions"
+  />
+</div>
